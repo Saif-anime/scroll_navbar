@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+    /* transition: all 6s ease; */
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+}
+
+.sticky_p{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    border: none;
+}
+
+#about, #service, #tour, #slider{
+    width: 100%;
+    height: 100vh;
+    margin: 20px 0px;
+  
+}
+#slider{
+    background-color: brown;
+}
+
+#about{
+    background-color: yellowgreen;
+}
+
+
+
+#service{
+    background-color: blue;
+}
+
+
+
+#tour{
+background-color: red;
+}
+
